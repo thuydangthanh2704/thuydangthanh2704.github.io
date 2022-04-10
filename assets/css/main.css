@@ -1,0 +1,226 @@
+#wrapper{
+    margin: 0px auto;
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    height: 50px;
+}
+
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000;
+}
+
+#logo{
+    height: 200px;
+    width: 200px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    margin-left: -30px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    
+}
+
+#main-menu{
+    list-style: none;
+    text-decoration: none;
+}
+
+#main-menu li:hover{
+    text-decoration: underline;
+}
+ 
+#main-menu li {
+    display: flex;
+    text-decoration: none;
+    margin: 18px 20px;
+    position:relative;
+    float: left;
+}
+#main-menu li a{
+    color: darkcyan;
+    font-size: 20px;
+}
+
+#main-menu ul.sub-menu{
+    position: absolute;
+    list-style: none;
+    position: absolute;
+    margin-top: 26px;
+    background-color: black;
+}
+
+.has-item:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu{
+    position: absolute;
+    display: none;
+}
+.search {
+    margin: 18px;
+    position: relative;
+}
+
+.search-fr{
+    display: none;
+    position: absolute;
+
+}
+.form-input{
+    width: 240px;
+}
+button{
+    width: 40px;
+    margin-left: -5px;
+}
+
+#search-cart{
+    display: flex;
+}
+
+.cart{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+#imgcart{
+    min-width:30px;
+    height:30px;
+}
+
+#imgbt{
+    width:30px;
+    height:30px;
+}
+
+#imgsearch{
+    margin-left: 300px;
+}
+
+.search:hover .search-fr{
+    display: block;
+}
+
+#imgSale{
+    width: 100%;
+    height: 550px;
+}
+#imgThanks{
+    width: 800px;
+    height: 400px;
+    padding-left: 360px;
+}
+
+#gioiThieu{
+    max-width: 700px;
+    margin-right: 100px;
+}
+#danhMuc{
+    min-width: 150px;
+}
+
+footer{
+    padding: 20px 90px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer-detail{
+    color: #fff;
+    position: relative;
+}
+.footer-detail .title{
+    padding: 20px 0;
+    font-size: 28px;
+    text-align: center;
+    color: #c09440;
+}
+.footer-detail .contact i {
+    padding-right: 20px;
+}
+.footer-detail .contact >div{
+    padding-bottom: 15px;
+}
+
+#smile{
+    height: 40px;
+    margin-right: 15px;
+}
+
+.footer-detail-1{
+    padding: 20px;
+    border-top: 2px  double cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    justify-items: center;
+    color: whitesmoke;
+}
+
+.container{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+
+}
+
+.title{
+    color: cadetblue;
+}
+
+.container div{
+    display: block;
+}
+
+.title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.ptitle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.imgShirtAll{
+    width: 380px;
+}
+.detailSanPhamMoi{
+    width: 380px;
+    display: block;
+    margin-right: 10px;
+}
+.spp .spIndex {
+    display: flex;
+}
+/* CSS cho CheckSize*/
+
+/*-------------------------------*/
+
+
+
+
